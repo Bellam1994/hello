@@ -1,0 +1,55 @@
+
+my name is suresh
+
+
+having around 3.5years experince in devops engineer
+
+so my past experince is jenkins ,git ,maven,chef, aws vpc ,ec2&Docker and shell scripting is a basic knowledge
+
+	  Daily activities include creating builds for multiple projects, 
+	deploying the artifacts in multiple QA and DEV environments.
+1.
+   experince in version control system like git and svn
+   
+  2
+ i have experiance    ci/cd integration tool like jenkins.
+
+   continous integration i work jenkins
+   worked in jenkins setup for any new project and other continous integration tool
+
+   creating project jobs and configuring job in jenkins
+
+   installing pluging for jenkins.
+
+ 4
+    build tools i working in maven
+
+5
+   experiance  in Chef Configuration management tool. Wrote recipes, 
+       
+   creating cookbooks,
+	 Good knowledge in configuring Chef Workstations, Server and nodes.
+
+6  
+   Experience on Deployment process for servers like Apache Tomcat Server.
+•	
+               Worked on Jenkins for creating and scheduling jobs and Builds.
+•	 
+                Extensive experience in installation and configuration Tomcat server.
+
+
+
+7  devops process working with technologies and platfrom including git,maven,and jenkinss.
+
+   service now i working in jira
+
+
+
+this is overal my profile currently iam working slk services        payroll   [  VERITO SERVICES PVT LTD ]
+
+
+
+
+
+
+
