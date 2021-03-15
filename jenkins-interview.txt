@@ -1,0 +1,189 @@
+my is suresh 
+i had completed gradution from sree venkateswara university in 2015
+
+having arond 3.4 yeras experince in devops 
+my past experince is  jenkins ,git,maven,chef 
+
+
+what are using manul jenkins like installation configuration 
+
+              build    pluging installation
+ans:   we can intigrate  with the if you requried what every requried build  we have maven sonar then go head installing 
+       
+       pluging and automating process then bulid the configuration system location so that every time jenkins read the location
+
+       then what ever requriement configure like git confingure clone the data from remote repository click on build now
+
+      clone the data from remote repository like that bulid configure the in your jenkins machine.
+
+4.how we can install pluging manual  
+
+ans:  manual install the pluging first check the pluging like what exactlly jenkins version you going to use and then the 
+        
+        requried pluging after that before you going to jenkins environment first the best practise is install the pluging
+
+        localy in the localy basically we use setup the jenkins and download the pluging and go to mange jenkins, manage plugins 
+
+       there adavanced system setting and restart your jenkins environment so after that login jenkins set the pluging config
+
+        so this the best pluging  every thing is working fine take the documentation for the  pluging installation once every
+      thing working because many pepole doing the devlopment and we are  doing the bulid daily base.
+
+2.for jenkin how we can backup  how we can take
+
+     machine backup
+
+ans: so basically coming to the backup  we are using two method one is the config.xml file located in your jenkins host machine
+
+       we can use the pluging that is backup config pluging that is working how is install the configure we have give the backup 
+
+      configure root directory and backup directory and formate backup job using the pluging we can take up backup also and
+
+     jenkins backup pluging configure system there is backup configure option if you  required the backup you can take backup.
+
+3.configure file in home directory
+
+ans:  jenkins home directory you can take backup that evert thing pluging job 
+
+4  configure email notification using jenkins
+
+ ans: install jenkins 
+        
+      open jenkins on local host.setting up an   SMTP SERVER  ,navigate to mange jenkins(mange jenkins option is displayed on
+
+      the right hand side of the server)
+
+      once on the mange jenkins page,select the manage plugin option.
+
+       click avaliable tab on the mange pluging page on the filter filed displayed on the right hand corner on the screen ,
+     
+       start typing notification click on the check box next to email 
+
+       now click the check box next to email exec plugiNG click the install without restart button.
+
+
+     email notification:
+
+        mange jenkins  then go to
+
+          configure system   then go to
+
+ 	email notification:SMPT server .SMTP .gmail.com  465 PORT NO
+
+
+ add an email notification for a build project.
+
+Step 1 - Configuring an SMTP server. Goto Manage Jenkins ? Configure System. Go to the E-mail notification section and 
+         enter the required SMTP server and user email-suffix details.
+
+SMTP Server
+Step 2 - Configure the recipients in the Jenkins project - When you configure any Jenkins build project, 
+           right at the end is the ability to add recipients who would get email notifications for unstable or broken builds. 
+              Then click on the Save button.
+
+Configure Recipients
+Apart from the default, there are also notification plugin’s available in the market. 
+ An example is the notification plugin from Tikal Knowledge which allows sending Job Status  
+ notifications in JSON and XML formats. This plugin enables end-points to be configured as shown below.
+
+5  explain diff bulid  ci/cd process
+
+ans: basically  we implimeted ci /cd  proceess in my jenkins file for that basically jenkins file is like cleanup the file second 
+
+     stage is check out the code are cloning the code and bulid the code and code quality and package artifact upload to 
+
+     artifactory and deploy package to the dev environment and deploy package to the stage environment this complete pipeline
+
+   there is total 8 stage we implimented the struture of the pipeline is first we should maintind the label ,git checkout we clone
+
+   the data and branch name url clone is data , 3 rd stage code scan we are using sonar cube bascially we are doing the analisis
+
+  in the code quality once its completeed go for the doing the uplod package artifactory once is completed testing .before 
+
+  we use buliding every stage propely configure after that we can move for the doing ci/cd process.
+
+6 deployment like   
+
+	chef process in jenkins
+
+ans: deployment perform we intigrated the process configuration mangement tool chef basically in jenkins job only configure 
+
+      the recipe is locatedS in your chef location basically if you recipe configure intigration in jenkins you see the recipe name 
+  
+      in your chef machine  basically the node is processing from the jenkins environment there we process a detailes were you
+
+     use to deploy a package according to this details in jenkins we read parameter and we read the recipes and its perform the
+
+    deployment but before your deployment manditory remote server chef client is installl or not after that only process in
+
+        deployment 
+
+ 7.when the  multiple bulid so how that you maitin and 
+
+           how intigration bulid code m2. maven pom.xml
+
+ans: basically we are using m2 release pluging  how is working in jenkins we install  m2 release pluging basically the pluging 
+
+     purpose is m2 pluging inside the pluging jar and maven if you give informatin aboubt perform maven relese if click on 
+
+    the documents if you show details currently version and next development version basaically pom.xml we should pass the
+
+    version exact version next devlopment version next today 1.0 release version ,then day after tomorror version is 1.1 next 
+   
+   development version is start so that pom .xml version each and evert version and alose there is relase a relese version also 
+
+   and every montly release production there is maintion a all current  release version and development  verion this
+
+    track is very easy today
+
+
+  security 
+
+   complete jenkins access security   and jenkins access for particular job.
+
+
+ mange jenkins
+       
+    configure global security
+ 
+       click on enable security 
+ 
+           project based matrix automation security 
+
+                     user/group to add:suresh
+
+ 
+8.what is purpose of  svn tags
+
+ans: basacilly tag we are using taking backup each and every released code is just copy of your source code and create job 
+
+     there is m2 relese pluging enable to tag option if give the backup of your souce code 
+
+
+9.any diffrent between svn branch and tag 
+
+ans:branch is nothing but doing develpoment we are creating  the branches ,tag is created after devoplement after bulid 
+
+      the packages we are taking the backup 
+
+
+10.can i do pluging checkout devleopment and tag also 
+
+ans :no never modify the code tag floder ,after checking the code we will create the tag if i do the modifaction if yo 
+
+      go to the develop branch if really required to seprate branch we are using seperate 
+
+
+11.   setup node like master slave node are intractive mode
+
+ans: basically node we are giving the linux configuration host user name and password and configre slave give the java 
+
+     jnvc services 
+
+12.schell scrip deployment
+
+
+    ssh pluging if yor configure user name nd ask server nd direct connect to remote machine 
+
+
+  
